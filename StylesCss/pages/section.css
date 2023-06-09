@@ -1,0 +1,119 @@
+#fullpage.no-scroll {
+	overflow-y: hidden;
+	max-height: 100vh;
+}
+
+.section {
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.section.one {
+	background-image: url(../../media/seguranca_alimentar.jpg);
+}
+
+.section.two {
+	background-image: url(../../media/crescimento_fome.jpg);
+}
+
+.section.three {
+	background-image: url(../../media/paraquemdoar.jpg);
+}
+
+.section__content {
+	position: absolute;
+	top: 20%;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 100%;
+	text-align: center;
+	text-transform: capitalize;
+	color: var(--primary-color);
+}
+
+.section__content__title {
+	font-size: 4rem;
+	font-weight: bold;
+	margin-bottom: 0.5rem;
+	color: white;
+}
+
+.section__content__subtitle {
+	font-size: 1.5rem;
+	font-weight: 500;
+}
+
+.section__content__subtitle a {
+	color: inherit;
+}
+
+.section__content__subtitle a:hover {
+	text-decoration: underline;
+}
+
+.section__action__container {
+	position: absolute;
+	bottom: 15%;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 100%;
+	text-align: center;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.section__action__btn {
+	font-size: 1.5rem;
+	font-weight: 500;
+	padding: 1rem;
+	border-radius: 2rem;
+	flex-basis: 80%;
+	margin-bottom: 1rem;
+	text-transform: capitalize;
+}
+
+.action__btn__primary {
+	background: #70000e;
+	color: white;
+}
+
+.action__btn__secondary {
+	background: rgba(255, 255, 255, 0.65);
+	color: var(--primary-color);
+}
+
+.imgdoar{
+	
+	padding: 0 2;
+	width: 50%;
+	margin-left: 20%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+
+}
+
+.section__content__title_2{
+	font-size: 4rem;
+	font-weight: bold;
+	margin-bottom: 0.5rem;
+	color: #70000e;
+}
+
+.center {
+	margin-left: 20%;
+	margin-top: 5%;
+	margin-bottom: 5% ;
+}
+
+.linkdoar{
+	font-size: 25px;
+	margin-left: 20%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+
+.btn_doar{
+	color: blue;
+}

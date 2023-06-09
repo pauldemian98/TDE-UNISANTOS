@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Segurança Alimentar</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link
+rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.min.css"
+integrity="sha512-4rPgyv5iG0PZw8E+oRdfN/Gq+yilzt9rQ8Yci2jJ15rAyBmF0HBE4wFjBkoB72cxBeg63uobaj1UcNt/scV93w=="
+crossorigin="anonymous"
+referrerpolicy="no-referrer"
+/>
+<link rel="stylesheet" href="../StylesCss/pages/reset.css" />
+<link rel="stylesheet" href="../StylesCss/pages/variable.css" />
+<link rel="stylesheet" href="../StylesCss/pages/header.css" />
+<link rel="stylesheet" href="../StylesCss/pages/navigation.css" />
+<link rel="stylesheet" href="../StylesCss/pages/section.css" />
+<link rel="stylesheet" href="../StylesCss/pages/footer.css" />
+<link rel="stylesheet" href="../StylesCss/pages/responsive.css" />
+<style>
+html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
+.w3-sidebar {
+  z-index: 3;
+  width: 250px;
+  top: 43px;
+  bottom: 0;
+  height: inherit;
+}
+</style>
+</head>
+<body>
+
+<!-- Navbar -->
+		<div class="blur__overlay"></div>
+
+		<header class="header">
+			<a class="header__left" href="https://www.unisantos.br">
+				<img class="header__logo" src="../media/logo-unisantos.svg" alt="" />
+			</a>
+
+			<div class="header__right">
+				<a class="header__nav__btn menu__btn" href="#">menu</a>
+			</div>
+		</header>
+
+		<nav class="navigation">
+			<div class="close__btn__container">
+				<img class="navigation__close__btn" src="../media/close_icon.svg" alt="" />
+			</div>
+
+			<ul>
+				<li><a class="nav__link" href="../index.html">Voltar ao Home </a></li>
+                <li><a class="nav__link" href="mapadafome.html">Voltar ao Mapa da Fome </a></li>
+				<li><a class="nav__link" href="paraquemdoar.html">Fazer Doação </a></li>
+				<li><a class="nav__link" href="#">Suporte </a></li>
+			</ul>
+		</nav>
+
+  <div>
+    <div class="w3-twothird w3-container center">
+      <h1 class="section__content__title_2">Crescimento da Fome no Brasil</h1>
+      <p>A proporção estimada de 59,4% dos brasileiros que vivenciam algum grau de insegurança alimentar é quase 23 pontos percentuais mais alta do que o registrado na última Pesquisa de Orçamentos Familiares (POF) realizada pelo Instituto Brasileiro de Geografia e Estatística (IBGE). Segundo o levantamento do IBGE, que abrange o mesmo fenômeno, 36,7% da população enfrentava algum grau de insegurança alimentar durante os anos de 2017 e 2018.</p>
+      <p>O melhor resultado em termos de acesso a alimentos estáveis e saudáveis no país foi alcançado em 2013, quando 22,6% dos brasileiros enfrentavam algum grau de insegurança alimentar. Em 2009, essa parcela representava 30,2% da população.</p>
+      <p>A série histórica da pesquisa tem início em 2004, um ano após a criação do Bolsa Família, quando 16,8% dos brasileiros enfrentavam insegurança alimentar grave ou moderada, enquanto outros 18% enfrentavam insegurança alimentar leve.</p>
+      <p>A pesquisa realizada pela Universidade Livre de Berlim possui uma metodologia em parte similar à do IBGE, mas não são idênticas. O IBGE entrevista um número maior de domicílios, presencialmente, e realiza um conjunto mais amplo de perguntas.</p>
+      <div>
+        <img src="../media/conteudo/Gráfico1.png" class="imgdoar" alt="">
+      </div>
+    </div>
+
+</div>
+
+<footer class="footer2">
+    <ul>
+        <li><a href="https://www.dw.com/pt-br/fome-no-brasil-cresce-e-supera-taxa-de-quando-bolsa-família-foi-criado/a-57187014">Referência bibliográfica</a></li>
+        <li><a href="#">Curso de Ciência e Sistemas 1° Semestre © 2023</a></li>
+    </ul>
+</footer>
+
+<!-- END MAIN -->
+</div>
+
+<script>
+// Get the Sidebar
+var mySidebar = document.getElementById("mySidebar");
+
+// Get the DIV with overlay effect
+var overlayBg = document.getElementById("myOverlay");
+
+// Toggle between showing and hiding the sidebar, and add overlay effect
+function w3_open() {
+  if (mySidebar.style.display === 'block') {
+    mySidebar.style.display = 'none';
+    overlayBg.style.display = "none";
+  } else {
+    mySidebar.style.display = 'block';
+    overlayBg.style.display = "block";
+  }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+  mySidebar.style.display = "none";
+  overlayBg.style.display = "none";
+}
+</script>
+
+<script
+src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.min.js"
+integrity="sha512-gSf3NCgs6wWEdztl1e6vUqtRP884ONnCNzCpomdoQ0xXsk06lrxJsR7jX5yM/qAGkPGsps+4bLV5IEjhOZX+gg=="
+crossorigin="anonymous"
+referrerpolicy="no-referrer"
+></script>
+
+<script src="Js/index_secondary.js"></script>
+
+</body>
+</html>
